@@ -1,0 +1,44 @@
+.div {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 500px;
+    background-color: white;
+    height: 50vh;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.label {
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 40px;
+    margin: auto
+}
+
+.userName {
+    text-align: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+
+    border-right: 2px solid black;
+    line-height: 48px;
+    padding: 0 12px;
+
+}
+.input {
+    height: 50px;
+    padding-left: 40px;
+    width: 80%;
+    border-radius: 14px;
+}

@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import { useState } from "react";
+import { Login } from "./page/login/Login";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
-  return (
-    <h1>Chao em co gai lam hong</h1>
-  )
+  return <Login></Login>;
 }
 
-export default App
+export default App;
