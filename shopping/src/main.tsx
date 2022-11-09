@@ -4,11 +4,17 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import { GlobalCss } from "./page/globalcss/global";
 import { Login } from "./page/login/Login";
+import { Main } from "./page/user/main";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+
   },
+  {
+    path: "/home",
+    element: <Main />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

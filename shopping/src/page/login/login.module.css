@@ -10,7 +10,7 @@
 .login {
     width: 500px;
     background-color: white;
-    height: 50vh;
+    height: 60vh;
     margin: auto;
     border-radius: 5px;
     box-shadow: 10px 10px 5px #aaaaaa;
@@ -18,27 +18,56 @@
 
 .label {
     text-align: center;
-    padding: 5px 0px;
-    font-size: 40px;
-    margin: auto
+    margin-bottom: 30px;
 }
 
-.userName {
-    text-align: center;
-    position: relative;
+.formik {
+    padding: 0 40px;
 }
 
-.icon {
-    position: absolute;
-
-    border-right: 2px solid black;
-    line-height: 48px;
-    padding: 0 12px;
-
+.field {
+    display: block;
+    height: 35px;
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 3px;
 }
-.input {
-    height: 50px;
-    padding-left: 40px;
-    width: 80%;
-    border-radius: 14px;
+
+.submit {
+    width: 60%;
+    margin: 15px auto;
+    display: block;
+    height: 35px;
+    background-color: rgb(69, 119, 19);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.loginOption {
+    display: flex;
+    gap: 15px;
+    height: 35px;
+}
+
+.faceBook {
+    background-color: rgb(68, 96, 173);
+    color: white;
+    display: block;
+    width: 60%;
+    border: none;
+}
+
+.email {
+    background-color: rgb(126, 31, 113);
+    color: white;
+    display: block; width: 60%;
+    height: 35px;
+    border: none;
+}
+
+.loginWith {
+    margin: 15px 0;
+    font-size: 15px;
+    display: block;
 }
