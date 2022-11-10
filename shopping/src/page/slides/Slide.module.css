@@ -1,0 +1,62 @@
+.container {
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.imageContainer {
+   /* The container for the images. */
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    gap: 5px;
+    transition-duration: 3s;
+    transition:  all 10s ease;;
+}
+
+.imageLink {
+    display: block;
+    width:calc(1400px/5);
+    position: relative;
+    right: 0;
+}
+
+.image {
+    width:calc(1400px/5);;
+    height: 100%;
+}
+
+.buttonLeft {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5px 0;
+}
+
+.container ul {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+
+.buttonRight {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    padding: 5px 0;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {right: 200px;}
+  }

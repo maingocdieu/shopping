@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import { GlobalCss } from "./page/globalcss/global";
 import { Login } from "./page/login/Login";
+import { Slide } from "./page/slides/Slide";
 import { Main } from "./page/user/main";
 const router = createBrowserRouter([
   {
@@ -14,6 +15,11 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Main />
+  }
+  ,
+  {
+    path: "/slide",
+    element: <Slide />
   }
 ]);
 
