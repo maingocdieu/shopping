@@ -139,18 +139,17 @@ export const Slide = () => {
           onClick={() => {
             if (index !== pageNumber.length) {
               setIndex(index + 1);
-            //   setPosition(position + 1425);
-              let id = setInterval(frame, 10);
-              function frame() {
-                console.log(position);
+              //setPosition(position + 1425);
+              // let id = setInterval(frame, 10);
+              // function frame() {
+              //     setPosition((prev) => {
+              //       if(prev >= 1420) {
+              //           clearInterval(id);
+              //       }
+              //       return prev + 500});
 
-                  setPosition((prev) => {
-                    if(prev >= 1420) {
-                        clearInterval(id);
-                    }
-                    return prev + 500});
-
-              }
+              // }
+              setPosition(position + 1425)
             }
           }}
         >
